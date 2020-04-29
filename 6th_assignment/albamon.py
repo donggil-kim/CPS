@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 import os
 import time
-import csv
 
 path = os.getcwd() + "\chromedriver.exe"
 driver = webdriver.Chrome(path)
